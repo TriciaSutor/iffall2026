@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background-image: url(https://i.ytimg.com/vi/elvaKRmP2PU/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+section {
+    top: 0;
+    margin-top: 52vh;
+    height: 40vh;
+    overflow-y: auto;
+}
+
+.lyrics-section {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.35)
+    );
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+
+h1, h2{
+    font-family: "Rye", serif;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: #111;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-shadow:
+        2px 2px 0 #f5e8bd,
+        -1px -1px 0 #f5e8bd,
+        1px -1px 0 #f5e8bd,
+        -1px 1px 0 #f5e8bd;
+}
+
+h3, p{
+    font-family: "Lora", serif;
+    color: #fff4d6;
+}
+
+h3{
+    font-style: italic;
+    align-self: center;
+}
+
+iframe {
+    border: none;
+}
