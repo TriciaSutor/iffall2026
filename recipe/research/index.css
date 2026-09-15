@@ -1,0 +1,20 @@
+html {
+    background-color: lightyellow;
+}
+
+img {
+    max-height: 300px;
+    width: auto;
+    margin: 20px;
+}
+
+p, ol, ul {
+    max-width: 80%;
+    margin: 20px;
+    color: darkolivegreen;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: darkslategrey;
+}
