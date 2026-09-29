@@ -1,0 +1,47 @@
+html {
+    background-color: lightyellow;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    max-height: 300px;
+    width: auto;
+    margin: 20px;
+}
+
+p, ol, ul { 
+    max-width: 80%; 
+    margin: 20px auto; 
+    color: darkolivegreen; 
+    font-size: large; 
+    text-align: left; 
+} 
+
+ul, ol { 
+    padding-left: 40px; 
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: darkslategrey;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+section img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+a {
+    padding: 5px 10px;
+}
