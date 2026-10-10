@@ -1,0 +1,121 @@
+body {
+    font-family: "Archivo Narrow", sans-serif;
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 80px;
+    margin-bottom: 16px;
+    line-height: 1;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 38px;
+}
+
+p {
+    margin: 0 0 16px 0;
+}
+
+.content-column {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 48px;
+}
+
+header {
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url(../images/sushi-wall.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header .content-column {
+    padding-top: 166px;
+    padding-bottom: 188px;
+}
+
+section {
+    padding-bottom: 40px;
+}
+section:first-of-type {
+    background-color: rgb(199, 203, 245);
+}
+
+section:first-of-type img {
+    float: right;
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    margin-left: 40px;
+    margin-bottom: 32px;
+}
+
+section:nth-of-type(2) {
+    background-color: rgb(199, 234, 167);
+}
+
+#photo-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.photo-container img {
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+    float: left;
+    margin-right: 12px;
+}
+
+.photo-container {
+    padding-bottom: 23px;
+    padding-right: 28px;
+}
+
+h4 {
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+section:nth-of-type(3) {
+    background-color: rgb(242, 193, 224);
+}
+
+section:nth-of-type(3) p {
+    font-size: 26px;
+    text-align: center;
+    margin: 0 128px;
+    padding-bottom: 60px;
+}
+
+footer p{
+    margin: 0;
+    line-height: 1;
+}
+
+footer .content-column {
+    padding-top: 45px;
+}
+
+footer {
+    padding-bottom: 45px;
+    background-color: rgb(254, 223, 162);
+}
