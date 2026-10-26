@@ -1,0 +1,166 @@
+h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#pottermore {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    background-color: #00001b;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Eagle Lake", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #e8c875;
+    font-size: 30px;
+}
+
+#pottermore:hover {
+    transform: translateY(-4px);
+    filter: drop-shadow(0 0 8px #e8c875)
+            drop-shadow(0 0 18px rgba(232, 200, 117, 0.5));
+}
+
+#colorrun {
+    display: block;
+    width: 200px;
+    height: fit-content;
+    padding: 20px;
+    box-sizing: border-box;
+
+
+    font-family: "Inter", sans-serif;
+    font-size: 2.25rem;
+    font-weight: 900;
+    line-height: 0.95;
+    text-transform: uppercase;
+    text-align: left;
+
+    background-color: #170e2f;
+    border: 2px solid #ea078c;
+}
+
+#word1{
+    color: #ea078c;
+}
+
+#word2 {
+    color: #f7ee26;
+}
+
+#word3 {
+    color: #27aae1;
+}
+
+#colorrun:hover {
+    background: linear-gradient(90deg, hsl(326 100% 58%), hsl(48 100% 58%), hsl(190 100% 55%), hsl(326 100% 58%));
+    background-size: 200% 100%;
+    animation: moveGradient 3s linear infinite;
+}
+
+@keyframes moveGradient {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 200% 0;
+    }
+}
+
+#colorrun:hover #word1,
+#colorrun:hover #word2,
+#colorrun:hover #word3 {
+    color: #fafafa;
+}
+
+#oldnavy {
+    font-family: "Oswald", sans-serif;
+    color: #f8fbcc;
+    background-color: #081738;
+    font-size: 2.25rem;
+    font-weight: 900;
+    line-height: 0.95;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border-radius: 50%;
+    border: 5px solid #f8fbcc;
+    transition: background-color 0.3s ease, color 0.3s ease, scale 0.3 ease;
+}
+
+#oldnavy:hover {
+    background-color: #364374;
+    scale: 1.1;
+}
+
+#kittens {
+    color: #fff113;
+    background-color: #840314;
+    font-family: "Road Rage", sans-serif;
+    font-size: 72px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.05;
+    transform: skew(-5deg);
+    transition: transform 0.2s ease;
+    scale: 0.8;
+}
+
+#kittens:hover {
+    animation: shake 0.4s ease-in-out infinite;
+}
+
+@keyframes shake {
+    0%, 100% { transform: skew(-5deg) rotate(0deg) scale(1); }
+    25% { transform: skew(-5deg) rotate(-4deg) scale(1.08); }
+    50% { transform: skew(-5deg) rotate(4deg) scale(1.08); }
+    75% { transform: skew(-5deg) rotate(-3deg) scale(1.05); }
+}
+
+#mollyjogger {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Sacramento", cursive;
+    font-size: 40px;
+    color: #9b9f77;
+    background-color: #363f17;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#mollyjogger:hover {
+    color: #3d431a;
+    background-color: #9b9f77;
+    transform: rotate(-2deg) scale(1.03);
+}
